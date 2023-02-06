@@ -1,0 +1,346 @@
+/*Portoflio 1 - CSS*/
+body {
+    background-color: #181717;
+}
+
+.main_header {
+	background: linear-gradient(0deg,rgba(0, 0, 0, 0.65) 0%, rgb(29, 29, 29) 100%);
+	position: fixed;
+    top: 0;
+    left: 0;
+	z-index: 100;
+	width: 100%;
+    border-bottom: 1px solid #333333;
+}
+
+.main_footer {
+	background: linear-gradient(180deg, #000000b7 , #1b1b1b);
+	position: fixed;
+    bottom: 0;
+    left: 0;
+	z-index: 100;
+	width: 100%;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+/*#region Navigation Bar*/
+.navbar_main {
+	height: 52px;
+	padding: 12px;
+    border: none;
+}
+
+.navbar_container {
+    text-align: center;
+    padding: 16px;
+}
+
+.navbar_list {
+    list-style-type: none;
+    margin: auto;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+.navbar_item {
+    display: inline;
+    padding: 0;
+}
+
+.navbar_itemlink {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.navbar_itemlink:hover {
+    text-shadow: rgba(255, 255, 255, 0.727);
+    box-shadow: 0px -39px 20px -40px rgba(146, 143, 143, 0.863) inset;
+    transition: 0.1s ease;
+    border-bottom: 1px solid #fff;
+}
+/*#endregion*/
+
+/*#region Footer Bar*/
+.footer_nav {
+	height: 24px;
+	padding: 12px;
+    border-top: 1px solid #333333;
+}
+
+.footer_container {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0px;
+}
+
+.footer_list {
+    position: absolute;
+    text-align: center;
+    display: inline;
+    list-style-type: none;
+    padding: 0px;
+    margin: auto;
+    width: 300px;
+    height: 24px;
+    right: 0px;
+}
+
+.footer_item {
+    text-align: center;
+    display: inline;
+    list-style-type: none;
+    padding: 0px;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.footer_itemlink {
+    display: inline;
+    text-decoration: none;
+    width: 24px;
+    height: 24px;
+    padding: 0%;
+    padding-left: 12px;
+    margin: auto;
+}
+.footer_item-img {
+    transition: ease 0.2s;
+}
+
+.footer_item-img:hover {
+    transform:scale(1.2)
+}
+
+.copyright {
+    display: inline;
+    margin: 0%;
+    padding: 0%;
+    width: 300px;
+}
+
+.copyright-text {
+    display: inline;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*#endregion*/
+
+/*#region Main Content*/
+.main_content {
+    padding-top: 64px;
+    padding-bottom: 24px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.mainpage_width {
+    padding-top: 36px;
+    height: 800px;
+    width: 1080px;
+    margin-left: 256px;
+    margin-right: 256px;
+}
+
+.main_header-title{
+    display: block;
+    font-size: 36px;
+    text-align: left;
+    padding-left: 24px;
+    font-family:'Open Sans Condensed', sans-serif;
+}
+/*#endregion*/
+
+/*#region Sample Packs PAGE*/
+.itemgrid_sp{
+    display: block;
+    width: 100%;
+    padding-left: 24px;
+}
+
+.product_list {
+    display: block;
+}
+
+.product_container {
+    width: 1080px;
+    padding-bottom: 18px;
+    text-align: left;
+}
+
+.productcards {
+    margin: auto;
+    text-decoration: none;
+}
+
+.product_title {
+    display: inline;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 564px;
+}
+
+.product_title:hover {
+    transition: 0.2s ease;
+    border-bottom: 1px solid #fff;
+}
+
+.foldericon_container {
+    display: inline-block;
+    padding-right: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+.folder_icon {
+    position: relative;
+    bottom: -4px;
+    width: 24px;
+    height: 24px;
+}
+
+.sp_button {
+    background-color: #272626;
+    display: inline;
+    border: 1px solid #38363680 ;
+    border-radius: 10%;
+    padding: 6px 12px;
+
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*#endregion*/
+
+/*#region Contact Us PAGE*/
+.main_contact-container {
+    display: block;
+    margin: auto;
+    margin-left: 256px;
+    padding: 24px;
+    width: 500px;
+
+}
+
+.contact_form {
+    display: block;
+    margin: auto;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+    font-size: 18px;
+    margin: 12px;
+    padding: 0px;
+    text-align: left;
+}
+
+#C-DATA {
+    margin: auto;
+    margin-bottom: 12px;
+    height: 24px;
+    width: 256px;
+    font-family: Arial;
+}
+
+#C-DATA-MSG_BOX {
+    position: relative;
+    top: -124px;
+}
+
+#C-DATA-MSG {
+    display: inline-block;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: 128px;
+    width: 256px;
+    font-family: Arial;
+}
+
+#C-DATA-BUTTON {
+    display: block;
+    position: relative;
+    margin: auto;
+    left: 80px;
+    height: 36px;
+    width: 96px;
+    color: #fff;
+    background-color: #a52121;
+
+}
+
+/*#endregion*/
+
+/*#region Music PAGE*/
+
+.music-page-width {
+    padding-top: 98px;
+    height: 1600px;
+    width: 1080px;
+    margin-left: 256px;
+    margin-right: 256px;
+}
+
+.soundcloud_embed {
+    margin: auto;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 64px;
+    width: 1080px;
+    height: 600px;
+    position: relative;
+    top: -24px;
+}
+
+.main_sc-embed {
+    padding-top: 56px;
+}
+
+/*#endregion*/
+
+/*#region About PAGE*/
+.about-page-width {
+    padding-top: 98px;
+    height: 1080px;
+    width: 1080px;
+    margin-left: 256px;
+    margin-right: 256px;
+}
+
+.about-container {
+    border-radius: 5%;
+    width: 600px;
+    background: #4042444e;
+    padding: 64px;
+    text-align: center;
+    margin: auto;
+    margin-top: 64px;
+    margin-left: 264px;
+    box-shadow: 0px 6px 8px 6px #28292a1f , 0px -6px 8px 6px #28292a1f;
+}
+
+.about-text {
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/*#endregion*/
+
